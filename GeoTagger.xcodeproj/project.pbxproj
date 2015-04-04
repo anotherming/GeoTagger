@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7D18B0C1AD0894900BFCEF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D18B0B1AD0894900BFCEF3 /* main.m */; };
+		D7D18B0F1AD0894900BFCEF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D18B0E1AD0894900BFCEF3 /* AppDelegate.m */; };
+		D7D18B121AD0894900BFCEF3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D18B111AD0894900BFCEF3 /* FirstViewController.m */; };
+		D7D18B151AD0894900BFCEF3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D18B141AD0894900BFCEF3 /* SecondViewController.m */; };
+		D7D18B181AD0894900BFCEF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7D18B161AD0894900BFCEF3 /* Main.storyboard */; };
+		D7D18B1A1AD0894900BFCEF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7D18B191AD0894900BFCEF3 /* Images.xcassets */; };
+		D7D18B1D1AD0894900BFCEF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7D18B1B1AD0894900BFCEF3 /* LaunchScreen.xib */; };
+		D7D18B291AD0894900BFCEF3 /* GeoTaggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D18B281AD0894900BFCEF3 /* GeoTaggerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7D18B231AD0894900BFCEF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7D18AFE1AD0894900BFCEF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7D18B051AD0894900BFCEF3;
+			remoteInfo = GeoTagger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7D18B061AD0894900BFCEF3 /* GeoTagger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoTagger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D18B0A1AD0894900BFCEF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7D18B0B1AD0894900BFCEF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7D18B0D1AD0894900BFCEF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7D18B0E1AD0894900BFCEF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7D18B101AD0894900BFCEF3 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D7D18B111AD0894900BFCEF3 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		D7D18B131AD0894900BFCEF3 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D7D18B141AD0894900BFCEF3 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D7D18B171AD0894900BFCEF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7D18B191AD0894900BFCEF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D7D18B1C1AD0894900BFCEF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D7D18B221AD0894900BFCEF3 /* GeoTaggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoTaggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D18B271AD0894900BFCEF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7D18B281AD0894900BFCEF3 /* GeoTaggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoTaggerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7D18B031AD0894900BFCEF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D18B1F1AD0894900BFCEF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7D18AFD1AD0894900BFCEF3 = {
+			isa = PBXGroup;
+			children = (
+				D7D18B081AD0894900BFCEF3 /* GeoTagger */,
+				D7D18B251AD0894900BFCEF3 /* GeoTaggerTests */,
+				D7D18B071AD0894900BFCEF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7D18B071AD0894900BFCEF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7D18B061AD0894900BFCEF3 /* GeoTagger.app */,
+				D7D18B221AD0894900BFCEF3 /* GeoTaggerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7D18B081AD0894900BFCEF3 /* GeoTagger */ = {
+			isa = PBXGroup;
+			children = (
+				D7D18B0D1AD0894900BFCEF3 /* AppDelegate.h */,
+				D7D18B0E1AD0894900BFCEF3 /* AppDelegate.m */,
+				D7D18B101AD0894900BFCEF3 /* FirstViewController.h */,
+				D7D18B111AD0894900BFCEF3 /* FirstViewController.m */,
+				D7D18B131AD0894900BFCEF3 /* SecondViewController.h */,
+				D7D18B141AD0894900BFCEF3 /* SecondViewController.m */,
+				D7D18B161AD0894900BFCEF3 /* Main.storyboard */,
+				D7D18B191AD0894900BFCEF3 /* Images.xcassets */,
+				D7D18B1B1AD0894900BFCEF3 /* LaunchScreen.xib */,
+				D7D18B091AD0894900BFCEF3 /* Supporting Files */,
+			);
+			path = GeoTagger;
+			sourceTree = "<group>";
+		};
+		D7D18B091AD0894900BFCEF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7D18B0A1AD0894900BFCEF3 /* Info.plist */,
+				D7D18B0B1AD0894900BFCEF3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7D18B251AD0894900BFCEF3 /* GeoTaggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7D18B281AD0894900BFCEF3 /* GeoTaggerTests.m */,
+				D7D18B261AD0894900BFCEF3 /* Supporting Files */,
+			);
+			path = GeoTaggerTests;
+			sourceTree = "<group>";
+		};
+		D7D18B261AD0894900BFCEF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7D18B271AD0894900BFCEF3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7D18B051AD0894900BFCEF3 /* GeoTagger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7D18B2C1AD0894900BFCEF3 /* Build configuration list for PBXNativeTarget "GeoTagger" */;
+			buildPhases = (
+				D7D18B021AD0894900BFCEF3 /* Sources */,
+				D7D18B031AD0894900BFCEF3 /* Frameworks */,
+				D7D18B041AD0894900BFCEF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoTagger;
+			productName = GeoTagger;
+			productReference = D7D18B061AD0894900BFCEF3 /* GeoTagger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7D18B211AD0894900BFCEF3 /* GeoTaggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7D18B2F1AD0894900BFCEF3 /* Build configuration list for PBXNativeTarget "GeoTaggerTests" */;
+			buildPhases = (
+				D7D18B1E1AD0894900BFCEF3 /* Sources */,
+				D7D18B1F1AD0894900BFCEF3 /* Frameworks */,
+				D7D18B201AD0894900BFCEF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7D18B241AD0894900BFCEF3 /* PBXTargetDependency */,
+			);
+			name = GeoTaggerTests;
+			productName = GeoTaggerTests;
+			productReference = D7D18B221AD0894900BFCEF3 /* GeoTaggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7D18AFE1AD0894900BFCEF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Ming;
+				TargetAttributes = {
+					D7D18B051AD0894900BFCEF3 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D7D18B211AD0894900BFCEF3 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D7D18B051AD0894900BFCEF3;
+					};
+				};
+			};
+			buildConfigurationList = D7D18B011AD0894900BFCEF3 /* Build configuration list for PBXProject "GeoTagger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7D18AFD1AD0894900BFCEF3;
+			productRefGroup = D7D18B071AD0894900BFCEF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7D18B051AD0894900BFCEF3 /* GeoTagger */,
+				D7D18B211AD0894900BFCEF3 /* GeoTaggerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7D18B041AD0894900BFCEF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D18B181AD0894900BFCEF3 /* Main.storyboard in Resources */,
+				D7D18B1D1AD0894900BFCEF3 /* LaunchScreen.xib in Resources */,
+				D7D18B1A1AD0894900BFCEF3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D18B201AD0894900BFCEF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7D18B021AD0894900BFCEF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D18B151AD0894900BFCEF3 /* SecondViewController.m in Sources */,
+				D7D18B0F1AD0894900BFCEF3 /* AppDelegate.m in Sources */,
+				D7D18B121AD0894900BFCEF3 /* FirstViewController.m in Sources */,
+				D7D18B0C1AD0894900BFCEF3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D18B1E1AD0894900BFCEF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D18B291AD0894900BFCEF3 /* GeoTaggerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7D18B241AD0894900BFCEF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7D18B051AD0894900BFCEF3 /* GeoTagger */;
+			targetProxy = D7D18B231AD0894900BFCEF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7D18B161AD0894900BFCEF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7D18B171AD0894900BFCEF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7D18B1B1AD0894900BFCEF3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7D18B1C1AD0894900BFCEF3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7D18B2A1AD0894900BFCEF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D7D18B2B1AD0894900BFCEF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7D18B2D1AD0894900BFCEF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeoTagger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7D18B2E1AD0894900BFCEF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeoTagger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D7D18B301AD0894900BFCEF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GeoTaggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoTagger.app/GeoTagger";
+			};
+			name = Debug;
+		};
+		D7D18B311AD0894900BFCEF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GeoTaggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoTagger.app/GeoTagger";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7D18B011AD0894900BFCEF3 /* Build configuration list for PBXProject "GeoTagger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D18B2A1AD0894900BFCEF3 /* Debug */,
+				D7D18B2B1AD0894900BFCEF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7D18B2C1AD0894900BFCEF3 /* Build configuration list for PBXNativeTarget "GeoTagger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D18B2D1AD0894900BFCEF3 /* Debug */,
+				D7D18B2E1AD0894900BFCEF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7D18B2F1AD0894900BFCEF3 /* Build configuration list for PBXNativeTarget "GeoTaggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D18B301AD0894900BFCEF3 /* Debug */,
+				D7D18B311AD0894900BFCEF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7D18AFE1AD0894900BFCEF3 /* Project object */;
+}
